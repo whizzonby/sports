@@ -13,7 +13,7 @@ class ContactSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/contact');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $data = [
             [

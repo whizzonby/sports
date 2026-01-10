@@ -13,7 +13,7 @@ class SliderSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/slider');
-        copyFilesToStorage($sourcePath, 'sliders');
+        \copyFilesToStorage($sourcePath, 'sliders');
 
         $data = [
             [

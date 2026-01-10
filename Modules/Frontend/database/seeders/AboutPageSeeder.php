@@ -19,7 +19,7 @@ class AboutPageSeeder extends Seeder
         //////////////
         // HERO AREA
         $sourcePath = public_path('admin/img/files/about');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $content = [
                     'title'           => 'Hero Area',
@@ -75,7 +75,7 @@ class AboutPageSeeder extends Seeder
         //////////////
         // ABOUT AREA
         $sourcePath = public_path('admin/img/files/about');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $aboutContent = [
                     'title'           => 'About Area',

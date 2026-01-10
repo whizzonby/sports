@@ -13,7 +13,7 @@ class ProductCategorySeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/shop/category');
-        copyFilesToStorage($sourcePath, 'product-categories');
+        \copyFilesToStorage($sourcePath, 'product-categories');
 
         $categories = [
             [

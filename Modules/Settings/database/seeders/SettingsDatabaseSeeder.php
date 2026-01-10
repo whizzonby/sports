@@ -16,7 +16,7 @@ class SettingsDatabaseSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/settings');
-        copyFilesToStorage($sourcePath, 'website');
+        \copyFilesToStorage($sourcePath, 'website');
 
         $settings_data = [
             'app_name' => 'Agntix',

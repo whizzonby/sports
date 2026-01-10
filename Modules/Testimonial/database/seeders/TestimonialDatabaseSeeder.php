@@ -13,7 +13,7 @@ class TestimonialDatabaseSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/testimonial');
-        copyFilesToStorage($sourcePath, 'testimonials');
+        \copyFilesToStorage($sourcePath, 'testimonials');
 
         $testimonials = [
             [

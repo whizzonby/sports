@@ -15,7 +15,7 @@ class BlogDatabaseSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/blog');
-        copyFilesToStorage($sourcePath, 'blog');
+        \copyFilesToStorage($sourcePath, 'blog');
         $description_en = '<h4><strong>Building a Memorable Brand Identity: A Creative Agency\'s Approach</strong></h4>
                             <p>In a crowded marketplace, a strong brand identity is what sets a business apart. At our creative agency, we specialize in transforming ideas into powerful visual stories that connect emotionally and leave lasting impressions.</p>
 

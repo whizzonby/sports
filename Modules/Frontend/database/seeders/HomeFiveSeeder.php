@@ -17,7 +17,7 @@ class HomeFiveSeeder extends Seeder
         //////////////
         // HERO AREA
         $sourcePath = public_path('admin/img/files/home-five');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $heroContent = [
                     'title'           => 'Hero Area',

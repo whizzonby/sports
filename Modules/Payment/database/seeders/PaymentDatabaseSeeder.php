@@ -15,7 +15,7 @@ class PaymentDatabaseSeeder extends Seeder
     {
 
         $sourcePath = public_path('admin/img/icons/payment');
-        copyFilesToStorage($sourcePath, 'website');
+        \copyFilesToStorage($sourcePath, 'website');
 
 
        $payments = [

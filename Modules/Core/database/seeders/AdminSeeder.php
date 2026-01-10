@@ -13,7 +13,7 @@ class AdminSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/admin');
-        copyFilesToStorage($sourcePath, 'avatar');
+        \copyFilesToStorage($sourcePath, 'avatar');
         $bio = "I'm a digital marketing strategist and SEO specialist with over 7 years of experience in helping businesses grow online. I'm passionate about making SEO simple, effective, and results-driven.";
 
         User::firstOrCreate(

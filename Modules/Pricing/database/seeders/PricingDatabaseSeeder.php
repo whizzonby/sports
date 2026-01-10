@@ -14,7 +14,7 @@ class PricingDatabaseSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/pricing');
-        copyFilesToStorage($sourcePath, 'pricing');
+        \copyFilesToStorage($sourcePath, 'pricing');
 
         $pricings = [
             [

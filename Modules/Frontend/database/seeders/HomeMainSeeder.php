@@ -21,7 +21,7 @@ class HomeMainSeeder extends Seeder
         //////////////
         // HERO AREA
         $sourcePath = public_path('admin/img/files/home-main/hero');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $content = [
                     'title'           => 'Hero Area',
@@ -91,7 +91,7 @@ class HomeMainSeeder extends Seeder
         // ABOUT AREA
 
         $sourcePath = public_path('admin/img/files/home-main/about');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $aboutContent = [
                     'title'           => 'About Area',
@@ -217,7 +217,7 @@ class HomeMainSeeder extends Seeder
         // SERVICES AREA
 
         $sourcePath = public_path('admin/img/files/home-main/services');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $servicesContent = [
                     'title'           => 'Services Area',
@@ -454,7 +454,7 @@ class HomeMainSeeder extends Seeder
         // TESTIMONIAL AREA
 
         $sourcePath = public_path('admin/img/files/home-main/testimonial');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $testimonialContent = [
                     'title'           => 'Testimonial Area',

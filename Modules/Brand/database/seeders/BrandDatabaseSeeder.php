@@ -13,7 +13,7 @@ class BrandDatabaseSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/brands');
-        copyFilesToStorage($sourcePath, 'brand');
+        \copyFilesToStorage($sourcePath, 'brand');
 
         for ($i = 0; $i < 20; $i++) {
 

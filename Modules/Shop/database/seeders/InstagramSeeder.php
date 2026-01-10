@@ -13,7 +13,7 @@ class InstagramSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/instagram');
-        copyFilesToStorage($sourcePath, 'instagram');
+        \copyFilesToStorage($sourcePath, 'instagram');
 
         $data = [
             [

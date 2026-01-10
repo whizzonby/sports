@@ -86,7 +86,7 @@ class ProductSeeder extends Seeder
         ];
 
         $sourcePath = public_path('admin/img/files/shop/product');
-        copyFilesToStorage($sourcePath, 'products');
+        \copyFilesToStorage($sourcePath, 'products');
 
         $add_info = [
             'en' => [

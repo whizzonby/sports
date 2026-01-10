@@ -13,7 +13,7 @@ class PortfolioDatabaseSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/portfolios');
-        copyFilesToStorage($sourcePath, 'portfolios');
+        \copyFilesToStorage($sourcePath, 'portfolios');
 
          $description = '<h3>Project Overview</h3>
                         <p>The client approached us seeking a bold and cohesive brand identity to elevate their presence in a saturated market. Our objective was to craft a brand system that reflected their mission, values, and modern aesthetic — all while ensuring adaptability across digital and print platforms.</p>

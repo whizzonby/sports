@@ -15,7 +15,7 @@ class HomeTwoSeeder extends Seeder
         //////////////
         // HERO AREA
         $sourcePath = public_path('admin/img/files/home-two/hero');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $content = [
                     'title'           => 'Hero Area',
@@ -81,7 +81,7 @@ class HomeTwoSeeder extends Seeder
         //////////////
         // Step AREA
         $sourcePath = public_path('admin/img/files/home-two/step');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $stepContent = [
                     'title'           => 'Step Area',
@@ -219,7 +219,7 @@ class HomeTwoSeeder extends Seeder
         //////////////
         // SERVICES AREA
         $sourcePath = public_path('admin/img/files/home-two/services');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $serviceContent = [
             'title'           => 'Services Area',
@@ -277,7 +277,7 @@ class HomeTwoSeeder extends Seeder
         //////////////
         // ABOUT AREA
         $sourcePath = public_path('admin/img/files/home-two/about');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
         $aboutContent = [
             'title'           => 'About Area',
             'slug'            => 'about',
@@ -488,7 +488,7 @@ class HomeTwoSeeder extends Seeder
         //////////////
         // APP BRAND AREA
         $sourcePath = public_path('admin/img/files/home-two/app-brand');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $appBrandContent = [
                     'title'           => 'App Brand Area',
@@ -543,7 +543,7 @@ class HomeTwoSeeder extends Seeder
         //////////////
         // Benefit AREA
         $sourcePath = public_path('admin/img/files/home-two/benefit');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $benefitContent = [
                     'title'           => 'Benefit Area',
@@ -612,7 +612,7 @@ class HomeTwoSeeder extends Seeder
         //////////////
         // FAQ AREA
         $sourcePath = public_path('admin/img/files/home-two/faq');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $faqContent = [
                     'title'           => 'FAQ Area',

@@ -17,7 +17,7 @@ class ServicePageSeeder extends Seeder
         //////////////
         // HERO AREA
         $sourcePath = public_path('admin/img/files/services');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $content = [
                     'title'           => 'Hero Area',

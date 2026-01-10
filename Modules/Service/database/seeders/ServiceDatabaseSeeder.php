@@ -14,7 +14,7 @@ class ServiceDatabaseSeeder extends Seeder
     public function run(): void
     {
         $sourcePath = public_path('admin/img/files/services');
-        copyFilesToStorage($sourcePath, 'services');
+        \copyFilesToStorage($sourcePath, 'services');
 
         $tagGroups = [
             // Branding & Identity Projects

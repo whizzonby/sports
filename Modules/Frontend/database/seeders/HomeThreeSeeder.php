@@ -15,7 +15,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // HERO AREA
         $sourcePath = public_path('admin/img/files/home-three/hero');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $content = [
                     'title'           => 'Hero Area',
@@ -135,7 +135,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // FEATURES AREA
         $sourcePath = public_path('admin/img/files/home-three/features');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $featuresContent = [
             'title'           => 'Features Area',
@@ -208,7 +208,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // HOW IT WORKS AREA
         $sourcePath = public_path('admin/img/files/home-three/how');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $howItWorksContent = [
             'title'           => 'How It Works',
@@ -268,7 +268,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // APP Review AREA
         $sourcePath = public_path('admin/img/files/home-three/app-review');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $appReviewContent = [
             'title'           => 'App Review',
@@ -336,7 +336,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // Dashboard AREA
         $sourcePath = public_path('admin/img/files/home-three/dashboard');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
         $dashboardContent = [
             'title'           => 'Dashboard',
             'slug'            => 'dashboard',
@@ -429,7 +429,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // PRICING AREA
         $sourcePath = public_path('admin/img/files/home-three/pricing');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
         $pricingContent = [
             'title'           => 'Pricing',
             'slug'            => 'pricing',
@@ -481,7 +481,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // TESTIMONIAL AREA
         $sourcePath = public_path('admin/img/files/home-three/testimonial');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
         $testimonialContent = [
             'title'           => 'Testimonial',
             'slug'            => 'testimonial',
@@ -543,7 +543,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // FAQ AREA
         $sourcePath = public_path('admin/img/files/home-three/faq');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $faqContent = [
                     'title'           => 'FAQ Area',
@@ -594,7 +594,7 @@ class HomeThreeSeeder extends Seeder
         //////////////
         // APP DOWNLOAD AREA
         $sourcePath = public_path('admin/img/files/home-three/app-download');
-        copyFilesToStorage($sourcePath, 'web');
+        \copyFilesToStorage($sourcePath, 'web');
 
         $appDownloadContent = [
             'title'           => 'App Download Area',
