@@ -13,6 +13,7 @@ return [
     'database_port' => 'Port',
     'welcome_footer_text' => 'Welcome to the Installer! This is the first step in setting up your application. Please follow the \ instructions  carefully to ensure a successful installation.',
     'begin_installation' => 'Begin Installation',
+    'get_started' => 'Get Started',
     'check_requirements' => 'Check Requirements',
     'check_requirements_description' => 'We need to check if your server meets the requirements for installation. Please wait a moment while we perform the checks.',
     'php_version' => 'PHP version >= 8.2.0',
