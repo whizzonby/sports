@@ -34,7 +34,8 @@ class InstallerServiceProvider extends ServiceProvider
 
         $router = $this->app->make(Router::class);
         $router->pushMiddlewareToGroup('web', SetupMiddleware::class);
-        $router->prependMiddlewareToGroup('web', PurchaseVerifyMiddleware::class);
+        // License verification disabled - free usage
+        // $router->prependMiddlewareToGroup('web', PurchaseVerifyMiddleware::class);
         $router->aliasMiddleware('systemcheck', SystemRequirementsMiddleware::class);
     }
 
