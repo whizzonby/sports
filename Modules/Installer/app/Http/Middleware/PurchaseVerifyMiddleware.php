@@ -18,7 +18,7 @@ class PurchaseVerifyMiddleware
      */
     public function handle(Request $request, Closure $next)
     {
-        if(isDemoMode()){
+        if(\isDemoMode()){
             return $next($request);
         }
 
