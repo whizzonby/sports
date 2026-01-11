@@ -144,7 +144,7 @@ return array (
 'newsletter_description' => 'اشترك في نشرتنا الإخبارية للحصول على أحدث الأخبار والتحديثات!',
 'enter_your_email' => 'أدخل بريدك الإلكتروني',
 'your_creative_journey_starts_here' => 'Your Sports Innovation Starts Here',
-'contact_us_description' => 'Agntix هو منارة أفضل الابتكارات والشركة الأم الديناميكية لشركة wealcoder والعديد من الشركات الفرعية الأخرى.',
+'contact_us_description' => 'Revolutionizing the sports industry with cutting-edge <br> technology and innovation.',
 'scroll_to_explore' => 'قم بالتمرير للاستكشاف',
 'contact_us' => 'اتصل بنا',
 'see_in_map_our_office' => 'شاهد مكتبنا على الخريطة',
