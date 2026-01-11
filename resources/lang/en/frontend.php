@@ -141,7 +141,7 @@ return array (
   'newsletter' => 'Newsletter',
   'newsletter_description' => 'Subscribe our newsletter to get the \ latest news and updates!',
   'enter_your_email' => 'Enter your email',
-  'your_creative_journey_starts_here' => 'Your creative [shape] \ journey starts here',
+  'your_creative_journey_starts_here' => 'Your Sports Innovation Starts Here',
   'contact_us_description' => 'Agntix is a beacon of best innovation and the dynamic <br> parent a company of wealcoder and many other subsidiaries.',
   'scroll_to_explore' => 'Scroll to explore',
   'contact_us' => 'Contact Us',

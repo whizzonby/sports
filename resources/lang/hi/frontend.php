@@ -141,7 +141,7 @@ return array (
 'newsletter' => 'न्यूज़लेटर',
 'newsletter_description' => 'हमारे न्यूज़लेटर की सदस्यता लें और नवीनतम समाचार और अपडेट पाएं!',
 'enter_your_email' => 'अपना ईमेल दर्ज करें',
-'your_creative_journey_starts_here' => 'आपकी रचनात्मक यात्रा यहीं से शुरू होती है',
+'your_creative_journey_starts_here' => 'Your Sports Innovation Starts Here',
 'contact_us_description' => 'Agntix सबसे अच्छे नवाचार का एक प्रकाशस्तंभ है और wealcoder और कई अन्य सहायक कंपनियों की डाइनामिक पेरेंट कंपनी है।',
 'scroll_to_explore' => 'खोजने के लिए स्क्रॉल करें',
 'contact_us' => 'संपर्क करें',
