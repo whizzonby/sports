@@ -152,7 +152,7 @@ return array (
 'quick_links' => 'त्वरित लिंक',
 'useful_links' => 'उपयोगी लिंक',
 'contact' => 'संपर्क करें',
-'footer_brand_text' => 'Agntix.studio',
+'footer_brand_text' => 'WhizzonBy',
 'follow_us' => 'हमें फ़ॉलो करें',
 'information' => 'जानकारी',
 'digital_marketing' => 'डिजिटल मार्केटिंग',

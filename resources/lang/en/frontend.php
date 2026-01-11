@@ -152,7 +152,7 @@ return array (
   'quick_links' => 'Quick Links',
   'useful_links' => 'Useful Links',
   'contact' => 'Contact',
-  'footer_brand_text' => 'Agntix.studio',
+  'footer_brand_text' => 'WhizzonBy',
   'follow_us' => 'Follow Us',
     'information' => 'Information',
     'digital_marketing' => 'Digital Marketing',

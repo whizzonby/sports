@@ -154,7 +154,7 @@ return array (
 'quick_links' => 'روابط سريعة',
 'useful_links' => 'روابط مفيدة',
 'contact' => 'اتصل',
-'footer_brand_text' => 'Agntix.studio',
+'footer_brand_text' => 'WhizzonBy',
 'follow_us' => 'تابعنا',
 'information' => 'معلومات',
 'digital_marketing' => 'التسويق الرقمي',
