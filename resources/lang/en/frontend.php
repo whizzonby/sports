@@ -148,7 +148,7 @@ return array (
   'see_in_map_our_office' => 'See in map our office',
   'contact_us_message' => 'Or, you can contact one of our studios directly below. We aim to respond within 24 hours.',
   'view_location' => 'View Location',
-  'helping_startups_scale_and_grow' => 'Helping \ start-ups scale & grow',
+  'helping_startups_scale_and_grow' => 'Sports Technology ReImagined',
   'quick_links' => 'Quick Links',
   'useful_links' => 'Useful Links',
   'contact' => 'Contact',

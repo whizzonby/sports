@@ -148,7 +148,7 @@ return array (
 'see_in_map_our_office' => 'हमारे कार्यालय को नक्शे में देखें',
 'contact_us_message' => 'या, आप सीधे नीचे हमारे स्टूडियो में संपर्क कर सकते हैं। हम 24 घंटे के भीतर प्रतिक्रिया देने का लक्ष्य रखते हैं।',
 'view_location' => 'स्थान देखें',
-'helping_startups_scale_and_grow' => 'स्टार्टअप को स्केल और बढ़ाने में मदद करना',
+'helping_startups_scale_and_grow' => 'Sports Technology ReImagined',
 'quick_links' => 'त्वरित लिंक',
 'useful_links' => 'उपयोगी लिंक',
 'contact' => 'संपर्क करें',

@@ -150,7 +150,7 @@ return array (
 'see_in_map_our_office' => 'شاهد مكتبنا على الخريطة',
 'contact_us_message' => 'أو يمكنك الاتصال مباشرة بأحد استوديوهاتنا أدناه. نهدف للرد خلال 24 ساعة.',
 'view_location' => 'عرض الموقع',
-'helping_startups_scale_and_grow' => 'مساعدة الشركات الناشئة على التوسع والنمو',
+'helping_startups_scale_and_grow' => 'Sports Technology ReImagined',
 'quick_links' => 'روابط سريعة',
 'useful_links' => 'روابط مفيدة',
 'contact' => 'اتصل',
